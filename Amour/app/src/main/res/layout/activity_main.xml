@@ -49,6 +49,7 @@
         />
 
     <Button
+        android:id="@+id/forgetPasswordButton"
         android:layout_below="@id/password"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -63,7 +64,7 @@
 
     <Button
         android:layout_below="@id/password"
-        android:id="@+id/loginbutton"
+        android:id="@+id/loginButton"
         android:layout_height="wrap_content"
         android:layout_width="285dp"
         android:background="#FF6060"
@@ -75,12 +76,12 @@
         />
 
     <Button
-        android:id="@+id/facebook"
+        android:id="@+id/facebookButton"
         android:layout_marginTop="12dp"
         android:layout_height="wrap_content"
         android:layout_width="285dp"
         android:background="#425BB4"
-        android:layout_below="@id/loginbutton"
+        android:layout_below="@id/loginButton"
         android:text="LOGIN WITH FACEBOOK"
         android:textColor="#ffff"
         android:textSize="16dp"
@@ -88,8 +89,8 @@
         />
 
     <Button
-        android:id="@+id/account"
-        android:layout_below="@id/facebook"
+        android:id="@+id/signupButton"
+        android:layout_below="@id/facebookButton"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:background="#00ff0000"

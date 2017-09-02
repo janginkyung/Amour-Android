@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "140367333289",
+    "firebase_url": "https://amour-e5b06.firebaseio.com",
+    "project_id": "amour-e5b06",
+    "storage_bucket": "amour-e5b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140367333289:android:20364dc70ab9571d",
+        "android_client_info": {
+          "package_name": "orgm.androidtown.amour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140367333289-84q7se1iml1n65akbpmb59qgt8coibhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orgm.androidtown.amour",
+            "certificate_hash": "47d2531a7e00b9b56ce2e4de3fc87e20cef86550"
+          }
+        },
+        {
+          "client_id": "140367333289-p6kc1qgahl5jjk5kheklrqueamsmjmhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwUhFdKQSupdZHLY5fncpMUeQggi2zJp0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140367333289-p6kc1qgahl5jjk5kheklrqueamsmjmhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

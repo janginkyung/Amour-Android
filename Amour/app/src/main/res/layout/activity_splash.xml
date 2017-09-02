@@ -12,40 +12,11 @@
     android:textColor="#FFFFFF"
     android:textSize="40sp"
     />
-
-    <ImageView
-        android:layout_marginTop="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/line"
-        android:layout_marginLeft="15dp"
-        />
-
-
-    <ImageView
-        android:layout_marginTop="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/line"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="15dp"
-        />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/shortline"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="15dp"
+        android:background="@drawable/rectangle_line"
+        android:layout_centerInParent="true"
         />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shortline"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="15dp"
-
-        />
 </RelativeLayout>
