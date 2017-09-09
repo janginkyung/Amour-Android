@@ -4,101 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="orgm.androidtown.amour.MainActivity"
-    android:background="@drawable/love"
     >
-
-    <TextView
-        android:id="@+id/amour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amour"
-        android:textColor="#ffff"
-        android:textSize="44sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="사랑하는 그사람과 달콤한 커플앱"
-        android:textColor="#ffff"
-        android:textSize="15sp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/amour"
-        />
-
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="320dp"
-        android:layout_height="45dp"
-        android:layout_centerInParent="true"
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addpicture"
+    android:layout_marginTop="25dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="20dp"
+    />
+<ImageView
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shortline"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="60dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#ffff"
-        />
+        android:orientation="horizontal"
+        android:layout_below="@id/line"
+        >
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            />
+        <Button
+            android:id="@+id/pictureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/picture"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            />
 
+        <Button
+            android:id="@+id/chatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:id="@+id/calendarButton"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:id="@+id/moreButton"
+            />
 
-    <EditText
-        android:layout_width="320dp"
-        android:layout_height="45dp"
-        android:id="@+id/password"
-        android:layout_below="@+id/username"
-        android:layout_centerHorizontal="true"
-        android:background="#ffff"
-        android:layout_marginTop="10dp"
-        />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/forgetPasswordButton"
-        android:layout_below="@id/password"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="#00ff0000"
-        android:layout_marginTop="15dp"
-        android:text="forget password?"
-        android:textColor="#ffff"
-        android:textSize="13dp"
-        android:layout_centerHorizontal="true"
-        />
-
-
-    <Button
-        android:layout_below="@id/password"
-        android:id="@+id/loginButton"
-        android:layout_height="wrap_content"
-        android:layout_width="285dp"
-        android:background="#FF6060"
-        android:layout_marginTop="65dp"
-        android:text="LOG IN"
-        android:textColor="#ffff"
-        android:textSize="16dp"
-        android:layout_centerHorizontal="true"
-        />
-
-    <Button
-        android:id="@+id/facebookButton"
-        android:layout_marginTop="12dp"
-        android:layout_height="wrap_content"
-        android:layout_width="285dp"
-        android:background="#425BB4"
-        android:layout_below="@id/loginButton"
-        android:text="LOGIN WITH FACEBOOK"
-        android:textColor="#ffff"
-        android:textSize="16dp"
-        android:layout_centerHorizontal="true"
-        />
-
-    <Button
-        android:id="@+id/signupButton"
-        android:layout_below="@id/facebookButton"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="#00ff0000"
-        android:layout_marginTop="20dp"
-        android:text="Don't Have Account?"
-        android:textColor="#A2A2A2"
-        android:textSize="13dp"
-        android:layout_centerHorizontal="true"
-        />
 
 </RelativeLayout>
